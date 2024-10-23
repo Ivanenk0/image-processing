@@ -16,7 +16,7 @@ ax[0,1].imshow(mono, cmap='binary')
 ax[0,1].set_title('Mono Binary')
 
 fig.tight_layout()
-fig.savefig('..\output_image\lab1.2-result.png')
+fig.savefig('..\output_images\lab1.2-result.png')
 
 # --- TASK 3 ---
 
@@ -33,4 +33,4 @@ ax[1, 1].imshow(negative)
 ax[1, 1].set_title("Negative image")
 
 fig.tight_layout()
-fig.savefig('..\output_image\lab1.3-result.png')
+fig.savefig('..\output_images\lab1.3-result.png')
